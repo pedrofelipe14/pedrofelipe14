@@ -4,6 +4,13 @@
 
 Developer. I build full web applications (frontend, backend, payments, tests) as well as audio software in C++.
 
+### ⭐ Featured: a glitch synthesizer in the browser
+
+<a href="https://pedrofelipe14.github.io/salir-de-casa-web-synth/"><img src="https://raw.githubusercontent.com/pedrofelipe14/salir-de-casa-web-synth/main/docs/demo.gif" width="560" alt="Web synth demo: playing chords, reshaping the waveform and switching presets"></a>
+
+A C++ audio engine compiled to WebAssembly, running in real time in an AudioWorklet (about 2 % of the CPU budget with every effect on), with a React + TypeScript UI and 58 tests in CI.
+**[▶ Play it](https://pedrofelipe14.github.io/salir-de-casa-web-synth/)** · [Source](https://github.com/pedrofelipe14/salir-de-casa-web-synth)
+
 ## Projects
 
 | Project | What it is | Stack | Link |
@@ -26,6 +33,13 @@ Developer. I build full web applications (frontend, backend, payments, tests) as
 # 👋 Hola, soy Pedro
 
 Desarrollador. Hago aplicaciones web completas (frontend, backend, pagos, tests) y también software de audio en C++.
+
+### ⭐ Destacado: un sintetizador glitch en el navegador
+
+<a href="https://pedrofelipe14.github.io/salir-de-casa-web-synth/"><img src="https://raw.githubusercontent.com/pedrofelipe14/salir-de-casa-web-synth/main/docs/demo.gif" width="560" alt="Demo del sintetizador web: acordes, edición de la onda y cambio de presets"></a>
+
+Motor de audio en C++ compilado a WebAssembly, en tiempo real dentro de un AudioWorklet (alrededor del 2 % de la CPU con todos los efectos prendidos), con interfaz en React + TypeScript y 58 tests en CI.
+**[▶ Tocalo](https://pedrofelipe14.github.io/salir-de-casa-web-synth/)** · [Código](https://github.com/pedrofelipe14/salir-de-casa-web-synth)
 
 ## Proyectos
 
