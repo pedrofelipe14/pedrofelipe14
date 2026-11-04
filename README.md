@@ -4,7 +4,7 @@
 
 Desarrollador. Hago aplicaciones web completas (frontend, backend, pagos, tests) y también software de audio en C++.
 
-### ⭐ Destacado: un sintetizador glitch en el navegador
+### ⭐ Destacado: un sintetizador glitchcore en el navegador
 
 <a href="https://pedrofelipe14.github.io/salir-de-casa-web-synth/"><img src="https://raw.githubusercontent.com/pedrofelipe14/salir-de-casa-web-synth/main/docs/demo.gif" width="560" alt="Demo del sintetizador web: acordes, edición de la onda y cambio de presets"></a>
 
