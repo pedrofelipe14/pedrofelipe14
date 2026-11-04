@@ -15,6 +15,7 @@ A C++ audio engine compiled to WebAssembly, running in real time in an AudioWork
 
 | Project | What it is | Stack | Link |
 |---|---|---|---|
+| [**Court Booking API**](https://github.com/pedrofelipe14/court-booking-api) | REST API for booking football courts where double bookings are impossible (25 simultaneous requests → 1 booking, enforced by PostgreSQL), with JWT roles, Swagger docs and 27 tests against a real database | NestJS · TypeScript · PostgreSQL · Docker · GitHub Actions | [code](https://github.com/pedrofelipe14/court-booking-api) |
 | [**Casa Gioia**](https://github.com/pedrofelipe14/Casa-Gioia) | Production e-commerce site with user accounts, Mercado Pago payments, automated emails, an admin panel and E2E tests in CI | JavaScript · Supabase · Edge Functions (TypeScript) · Playwright · GitHub Actions | [live site](https://casa-gioia.vercel.app) |
 | [**CoordeFutbol**](https://github.com/pedrofelipe14/coordenadas-futbol) | App for organizing football games among friends: call-ups, teams, stats, real-time chat and cost splitting | React · TypeScript · Vite · Supabase (Realtime) · Vitest | [live app](https://coordenadas-futbol.vercel.app) |
 | [**Web Synth**](https://github.com/pedrofelipe14/salir-de-casa-web-synth) | The Salir de Casa synth in the browser, glitch micro-loop and reverb included: a C++ audio engine compiled to WebAssembly, running in real time in an AudioWorklet, with a React UI, MIDI support and tests in CI | C++ · WebAssembly · Web Audio · React · TypeScript | [play it](https://pedrofelipe14.github.io/salir-de-casa-web-synth/) |
@@ -24,9 +25,9 @@ A C++ audio engine compiled to WebAssembly, running in real time in an AudioWork
 
 **Languages:** JavaScript · TypeScript · C++ · HTML · CSS · SQL<br>
 **Frontend:** React · Vite · Web Audio API · WebAssembly<br>
-**Backend:** Supabase (PostgreSQL, Auth, Realtime, Edge Functions) · Mercado Pago · Resend<br>
+**Backend:** Node · NestJS · PostgreSQL (SQL) · REST · JWT · Supabase (Auth, Realtime, Edge Functions) · Mercado Pago · Resend<br>
 **Audio:** JUCE · VST3 · DSP<br>
-**Testing & deploy:** Playwright · Vitest · GitHub Actions · Vercel · Git
+**Testing & deploy:** Playwright · Vitest · Supertest · Docker · GitHub Actions · Vercel · Git
 
 ---
 
@@ -45,6 +46,7 @@ Motor de audio en C++ compilado a WebAssembly, en tiempo real dentro de un Audio
 
 | Proyecto | Qué es | Stack | Link |
 |---|---|---|---|
+| [**Court Booking API**](https://github.com/pedrofelipe14/court-booking-api) | API REST para reservar canchas de fútbol donde es imposible reservar dos veces el mismo turno (25 pedidos simultáneos → 1 reserva, garantizado por PostgreSQL), con roles JWT, documentación Swagger y 27 tests contra una base real | NestJS · TypeScript · PostgreSQL · Docker · GitHub Actions | [código](https://github.com/pedrofelipe14/court-booking-api) |
 | [**Casa Gioia**](https://github.com/pedrofelipe14/Casa-Gioia) | E-commerce en producción con cuentas de usuario, pagos con Mercado Pago, emails automáticos, panel de administración y tests E2E en CI | JavaScript · Supabase · Edge Functions (TypeScript) · Playwright · GitHub Actions | [sitio](https://casa-gioia.vercel.app) |
 | [**CoordeFutbol**](https://github.com/pedrofelipe14/coordenadas-futbol) | App para organizar partidos entre amigos: convocatorias, equipos, estadísticas, chat en tiempo real y división de pagos | React · TypeScript · Vite · Supabase (Realtime) · Vitest | [app](https://coordenadas-futbol.vercel.app) |
 | [**Web Synth**](https://github.com/pedrofelipe14/salir-de-casa-web-synth) | El sinte Salir de Casa en el navegador, con micro-loop glitch y reverb incluidos: motor de audio en C++ compilado a WebAssembly, en tiempo real en un AudioWorklet, con interfaz en React, soporte MIDI y tests en CI | C++ · WebAssembly · Web Audio · React · TypeScript | [tocalo](https://pedrofelipe14.github.io/salir-de-casa-web-synth/) |
@@ -54,6 +56,6 @@ Motor de audio en C++ compilado a WebAssembly, en tiempo real dentro de un Audio
 
 **Lenguajes:** JavaScript · TypeScript · C++ · HTML · CSS · SQL<br>
 **Frontend:** React · Vite · Web Audio API · WebAssembly<br>
-**Backend:** Supabase (PostgreSQL, Auth, Realtime, Edge Functions) · Mercado Pago · Resend<br>
+**Backend:** Node · NestJS · PostgreSQL (SQL) · REST · JWT · Supabase (Auth, Realtime, Edge Functions) · Mercado Pago · Resend<br>
 **Audio:** JUCE · VST3 · DSP<br>
-**Tests y deploy:** Playwright · Vitest · GitHub Actions · Vercel · Git
+**Tests y deploy:** Playwright · Vitest · Supertest · Docker · GitHub Actions · Vercel · Git
