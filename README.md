@@ -20,6 +20,7 @@ A C++ audio engine compiled to WebAssembly, running in real time in an AudioWork
 | [**CoordeFutbol**](https://github.com/pedrofelipe14/coordenadas-futbol) | App for organizing football games among friends: call-ups, teams, stats, real-time chat and cost splitting | React · TypeScript · Vite · Supabase (Realtime) · Vitest | [live app](https://coordenadas-futbol.vercel.app) |
 | [**Web Synth**](https://github.com/pedrofelipe14/salir-de-casa-web-synth) | The Salir de Casa synth in the browser, glitch micro-loop and reverb included: a C++ audio engine compiled to WebAssembly, running in real time in an AudioWorklet, with a React UI, MIDI support and tests in CI | C++ · WebAssembly · Web Audio · React · TypeScript | [play it](https://pedrofelipe14.github.io/salir-de-casa-web-synth/) |
 | [**Salir de Casa (VST3)**](https://github.com/pedrofelipe14/GlitchSynth) | Synthesizer and glitch effect for FL Studio: two oscillators with drawable waveforms, an LFO, micro-loops and a custom UI | C++17 · JUCE · DSP · CMake · GitHub Actions | [download](https://github.com/pedrofelipe14/GlitchSynth/releases/latest) |
+| [**Rasguido (VST3)**](https://github.com/pedrofelipe14/rasguido) | Omnichord-style instrument: hold one of 48 chord buttons and strum a 13-string plate that always plays that chord. Sample-accurate MIDI, an FM string voice, and a JUCE-free DSP core with native tests, ready for WebAssembly | C++17 · JUCE · DSP · CMake · GitHub Actions | [code](https://github.com/pedrofelipe14/rasguido) |
 
 ## Tools
 
@@ -51,6 +52,7 @@ Motor de audio en C++ compilado a WebAssembly, en tiempo real dentro de un Audio
 | [**CoordeFutbol**](https://github.com/pedrofelipe14/coordenadas-futbol) | App para organizar partidos entre amigos: convocatorias, equipos, estadísticas, chat en tiempo real y división de pagos | React · TypeScript · Vite · Supabase (Realtime) · Vitest | [app](https://coordenadas-futbol.vercel.app) |
 | [**Web Synth**](https://github.com/pedrofelipe14/salir-de-casa-web-synth) | El sinte Salir de Casa en el navegador, con micro-loop glitch y reverb incluidos: motor de audio en C++ compilado a WebAssembly, en tiempo real en un AudioWorklet, con interfaz en React, soporte MIDI y tests en CI | C++ · WebAssembly · Web Audio · React · TypeScript | [tocalo](https://pedrofelipe14.github.io/salir-de-casa-web-synth/) |
 | [**Salir de Casa (VST3)**](https://github.com/pedrofelipe14/GlitchSynth) | Sintetizador y efecto glitch para FL Studio: dos osciladores con ondas dibujables, LFO, micro-loops y una interfaz propia | C++17 · JUCE · DSP · CMake · GitHub Actions | [descarga](https://github.com/pedrofelipe14/GlitchSynth/releases/latest) |
+| [**Rasguido (VST3)**](https://github.com/pedrofelipe14/rasguido) | Instrumento estilo omnichord: mantenés uno de 48 botones de acorde y rasgueás una franja de 13 cuerdas que siempre toca ese acorde. MIDI con precisión de muestra, una voz de cuerdas FM y un motor DSP sin JUCE con tests nativos, listo para WebAssembly | C++17 · JUCE · DSP · CMake · GitHub Actions | [código](https://github.com/pedrofelipe14/rasguido) |
 
 ## Herramientas
 
