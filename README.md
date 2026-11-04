@@ -1,38 +1,6 @@
-**English** · [Español](#-hola-soy-pedro)
+**Español** · [English](#hi-im-pedro)
 
-#  Hi, I'm Pedro
-
-Developer. I build full web applications (frontend, backend, payments, tests) as well as audio software in C++.
-
-### ⭐ Featured: a glitch synthesizer in the browser
-
-<a href="https://pedrofelipe14.github.io/salir-de-casa-web-synth/"><img src="https://raw.githubusercontent.com/pedrofelipe14/salir-de-casa-web-synth/main/docs/demo.gif" width="560" alt="Web synth demo: playing chords, reshaping the waveform and switching presets"></a>
-
-A C++ audio engine compiled to WebAssembly, running in real time in an AudioWorklet (about 2 % of the CPU budget with every effect on), with a React + TypeScript UI and 58 tests in CI.
-**[▶ Play it](https://pedrofelipe14.github.io/salir-de-casa-web-synth/)** · [Source](https://github.com/pedrofelipe14/salir-de-casa-web-synth)
-
-## Projects
-
-| Project | What it is | Stack | Link |
-|---|---|---|---|
-| [**Appointments API**](https://github.com/pedrofelipe14/appointments-api) | Clients ask for "this week, afternoon", the API assigns the first free time and the provider confirms or rejects it. 10 simultaneous requests get 10 different times, with no double bookings under load. JWT roles, notifications, expiry, a developer portal and 28 tests against real PostgreSQL | NestJS · TypeScript · PostgreSQL · React · Docker · GitHub Actions | [portal](https://pedrofelipe14.github.io/appointments-api/) · [code](https://github.com/pedrofelipe14/appointments-api) |
-| [**Casa Gioia**](https://github.com/pedrofelipe14/Casa-Gioia) | Production e-commerce site with user accounts, Mercado Pago payments, automated emails, an admin panel and E2E tests in CI | JavaScript · Supabase · Edge Functions (TypeScript) · Playwright · GitHub Actions | [live site](https://casa-gioia.vercel.app) |
-| [**CoordeFutbol**](https://github.com/pedrofelipe14/coordenadas-futbol) | App for organizing football games among friends: call-ups, teams, stats, real-time chat and cost splitting | React · TypeScript · Vite · Supabase (Realtime) · Vitest | [live app](https://coordenadas-futbol.vercel.app) |
-| [**Web Synth**](https://github.com/pedrofelipe14/salir-de-casa-web-synth) | The Salir de Casa synth in the browser, glitch micro-loop and reverb included: a C++ audio engine compiled to WebAssembly, running in real time in an AudioWorklet, with a React UI, MIDI support and tests in CI | C++ · WebAssembly · Web Audio · React · TypeScript | [play it](https://pedrofelipe14.github.io/salir-de-casa-web-synth/) |
-| [**Salir de Casa (VST3)**](https://github.com/pedrofelipe14/GlitchSynth) | Synthesizer and glitch effect for FL Studio: two oscillators with drawable waveforms, an LFO, micro-loops and a custom UI | C++17 · JUCE · DSP · CMake · GitHub Actions | [download](https://github.com/pedrofelipe14/GlitchSynth/releases/latest) |
-| [**SDChord**](https://github.com/pedrofelipe14/sdchord) | Omnichord-style chord harp: hold one of 48 chord buttons and strum 13 strings, or let the auto-strum sequencer play them in time over a built-in rhythm machine. A VST3 plugin (validated with pluginval at strictness 10) and a browser version built from the same tested C++ engine compiled to WebAssembly | C++17 · JUCE · WebAssembly · React · TypeScript · GitHub Actions | [play it](https://pedrofelipe14.github.io/sdchord/) · [code](https://github.com/pedrofelipe14/sdchord) |
-
-## Tools
-
-**Languages:** JavaScript · TypeScript · C++ · HTML · CSS · SQL<br>
-**Frontend:** React · Vite · Web Audio API · WebAssembly<br>
-**Backend:** Node · NestJS · PostgreSQL (SQL) · REST · JWT · Supabase (Auth, Realtime, Edge Functions) · Mercado Pago · Resend<br>
-**Audio:** JUCE · VST3 · DSP<br>
-**Testing & deploy:** Playwright · Vitest · Supertest · Docker · GitHub Actions · Vercel · Git
-
----
-
-# 👋 Hola, soy Pedro
+# Hola, soy Pedro
 
 Desarrollador. Hago aplicaciones web completas (frontend, backend, pagos, tests) y también software de audio en C++.
 
@@ -61,3 +29,35 @@ Motor de audio en C++ compilado a WebAssembly, en tiempo real dentro de un Audio
 **Backend:** Node · NestJS · PostgreSQL (SQL) · REST · JWT · Supabase (Auth, Realtime, Edge Functions) · Mercado Pago · Resend<br>
 **Audio:** JUCE · VST3 · DSP<br>
 **Tests y deploy:** Playwright · Vitest · Supertest · Docker · GitHub Actions · Vercel · Git
+
+---
+
+# Hi, I'm Pedro
+
+Developer. I build full web applications (frontend, backend, payments, tests) as well as audio software in C++.
+
+### ⭐ Featured: a glitch synthesizer in the browser
+
+<a href="https://pedrofelipe14.github.io/salir-de-casa-web-synth/"><img src="https://raw.githubusercontent.com/pedrofelipe14/salir-de-casa-web-synth/main/docs/demo.gif" width="560" alt="Web synth demo: playing chords, reshaping the waveform and switching presets"></a>
+
+A C++ audio engine compiled to WebAssembly, running in real time in an AudioWorklet (about 2 % of the CPU budget with every effect on), with a React + TypeScript UI and 58 tests in CI.
+**[▶ Play it](https://pedrofelipe14.github.io/salir-de-casa-web-synth/)** · [Source](https://github.com/pedrofelipe14/salir-de-casa-web-synth)
+
+## Projects
+
+| Project | What it is | Stack | Link |
+|---|---|---|---|
+| [**Appointments API**](https://github.com/pedrofelipe14/appointments-api) | Clients ask for "this week, afternoon", the API assigns the first free time and the provider confirms or rejects it. 10 simultaneous requests get 10 different times, with no double bookings under load. JWT roles, notifications, expiry, a developer portal and 28 tests against real PostgreSQL | NestJS · TypeScript · PostgreSQL · React · Docker · GitHub Actions | [portal](https://pedrofelipe14.github.io/appointments-api/) · [code](https://github.com/pedrofelipe14/appointments-api) |
+| [**Casa Gioia**](https://github.com/pedrofelipe14/Casa-Gioia) | Production e-commerce site with user accounts, Mercado Pago payments, automated emails, an admin panel and E2E tests in CI | JavaScript · Supabase · Edge Functions (TypeScript) · Playwright · GitHub Actions | [live site](https://casa-gioia.vercel.app) |
+| [**CoordeFutbol**](https://github.com/pedrofelipe14/coordenadas-futbol) | App for organizing football games among friends: call-ups, teams, stats, real-time chat and cost splitting | React · TypeScript · Vite · Supabase (Realtime) · Vitest | [live app](https://coordenadas-futbol.vercel.app) |
+| [**Web Synth**](https://github.com/pedrofelipe14/salir-de-casa-web-synth) | The Salir de Casa synth in the browser, glitch micro-loop and reverb included: a C++ audio engine compiled to WebAssembly, running in real time in an AudioWorklet, with a React UI, MIDI support and tests in CI | C++ · WebAssembly · Web Audio · React · TypeScript | [play it](https://pedrofelipe14.github.io/salir-de-casa-web-synth/) |
+| [**Salir de Casa (VST3)**](https://github.com/pedrofelipe14/GlitchSynth) | Synthesizer and glitch effect for FL Studio: two oscillators with drawable waveforms, an LFO, micro-loops and a custom UI | C++17 · JUCE · DSP · CMake · GitHub Actions | [download](https://github.com/pedrofelipe14/GlitchSynth/releases/latest) |
+| [**SDChord**](https://github.com/pedrofelipe14/sdchord) | Omnichord-style chord harp: hold one of 48 chord buttons and strum 13 strings, or let the auto-strum sequencer play them in time over a built-in rhythm machine. A VST3 plugin (validated with pluginval at strictness 10) and a browser version built from the same tested C++ engine compiled to WebAssembly | C++17 · JUCE · WebAssembly · React · TypeScript · GitHub Actions | [play it](https://pedrofelipe14.github.io/sdchord/) · [code](https://github.com/pedrofelipe14/sdchord) |
+
+## Tools
+
+**Languages:** JavaScript · TypeScript · C++ · HTML · CSS · SQL<br>
+**Frontend:** React · Vite · Web Audio API · WebAssembly<br>
+**Backend:** Node · NestJS · PostgreSQL (SQL) · REST · JWT · Supabase (Auth, Realtime, Edge Functions) · Mercado Pago · Resend<br>
+**Audio:** JUCE · VST3 · DSP<br>
+**Testing & deploy:** Playwright · Vitest · Supertest · Docker · GitHub Actions · Vercel · Git
