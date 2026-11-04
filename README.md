@@ -1,6 +1,6 @@
 **English** · [Español](#-hola-soy-pedro)
 
-# 👋 Hi, I'm Pedro
+#  Hi, I'm Pedro
 
 Developer. I build full web applications (frontend, backend, payments, tests) as well as audio software in C++.
 
